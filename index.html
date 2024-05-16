@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전자공학기초실험 ChatGPT 활용하기</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?technology,engineering') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); /* 어두운 배경을 위한 반투명 레이어 */
+        }
+        .hero .container {
+            position: relative;
+            z-index: 1;
+        }
+        .cards {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .video-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .video-section video {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <h1 class="display-4">전자공학기초실험 ChatGPT 활용하기</h1>
+            <p class="lead">Web page 제작을 돕는 ChatGPT</p>
+        </div>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="container cards">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/400x200/?artificial-intelligence" class="card-img-top" alt="인공지능">
+                    <div class="card-body">
+                        <h5 class="card-title">인공지능</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">ChatGPT</h6>
+                        <p class="card-text">ChatGPT로 web page 만들기</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/400x200/?programming" class="card-img-top" alt="프로그래밍">
+                    <div class="card-body">
+                        <h5 class="card-title">프로그래밍</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">코드 작성</h6>
+                        <p class="card-text">효율적인 코드 작성 방법</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/400x200/?technology" class="card-img-top" alt="기술">
+                    <div class="card-body">
+                        <h5 class="card-title">기술</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">최신 트렌드</h6>
+                        <p class="card-text">최신 기술 동향과 트렌드</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Section -->
+    <div class="container video-section">
+        <h2>ChatGPT 구현 영상</h2>
+        <video controls>
+            <source src="my-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
